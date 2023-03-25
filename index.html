@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Remédios</title>
+    <link rel="icon" type="image/icon" href="assets/images/logoFarm.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Cadastro de Remédios</a>
+            <a href="">Cadastro de Vacinas</a>
+            <a href="">Cadastro de Cosméticos</a>
+        </nav>
+        <div id="headerTitle">
+            <img id="logo" src="assets/images/logoFarm.png" alt="Logo da Farmácia">
+            <div id="text">
+                <h1>Cadastro de Medicamentos</h1>
+                <h2>Farmácia da Gente</h2>
+            </div>
+            
+        </div>
+       
+    </header>
+
+    <section>
+        <form onsubmit="addMed()">
+            <label for="medName">Nome do Medicamento</label>
+            <input autocomplete="off" type="text" name="medName" id="mName">
+
+            <label for="qtdValue">Quantidade Disponível</label>
+            <input autocomplete="off" type="number" name="qtdValue" id="qValue">
+
+            <label for="medClass">Classe do Medicamento</label>
+            <input  autocomplete="off" type="text" name="medClass" id="mClass">
+
+            
+            <button type="submit" id="btnForm" >Cadastrar</button>
+           
+            
+
+        </form>
+        <div id="tableDiv">
+            <table id="dataTable">
+                <tr>
+                    <th>ID</th>
+                    <th>MEDICAMENTO</th>
+                    <th>QUANTIDADE</th>
+                    <th>CLASSE DO MEDICAMENTO</th>
+                    <th>REMOVER</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

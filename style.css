@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  #F5F5F5;
+
+}
+
+header{
+    background-color: white;
+
+}
+
+nav{
+    background: #76BEBE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 38px;
+    color: #F5F5F5;
+}
+
+#headerTitle{
+    display: flex;
+    align-items:center;
+    text-align: center;
+    margin-left: 7rem;
+    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    color: #CF509C;
+}
+h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+section{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    padding: 2rem 2rem 1rem 4rem;
+   
+    
+    
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.57);
+    width: 350px;
+    height: 35px;
+    text-align: center;
+}
+
+button{
+    background: #76BEBE;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2rem;
+    width: 10rem;
+    cursor: pointer;
+    border: 0;
+}
+
+table{
+    margin-left: 2rem;
+    padding: 2px 6px 2px 6px;
+}
+
+th{
+    background: #3E3D3D;
+    border: 1px solid #767373;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+tr{
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #000000;
+    background: rgba(218, 211, 211, 0.40 );
+    border: 1px solid #767373;
+    
+}
+
+#remove{
+    cursor: pointer;
+}
+
+#dataTable{
+    text-align: center;
+}
+
